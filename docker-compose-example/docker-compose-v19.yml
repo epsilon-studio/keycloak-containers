@@ -15,7 +15,7 @@ services:
         POSTGRES_USER: keycloak
         POSTGRES_PASSWORD: password
 
-  keycloak18:
+  keycloak19:
       image: quay.io/keycloak:19.0.2
       environment:
         DB_VENDOR: POSTGRES
