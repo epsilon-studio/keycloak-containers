@@ -1,8 +1,9 @@
 #/bin/zsh
 
-VERSION=19.0.2 # set version here
+VERSION=16.1.1 # set version here
 
-cd /tmp/keycloak/v19.0.2
+mkdir -p /tmp/keycloak/v16.1.1
+cd /tmp/keycloak/v16.1.1
 git clone git@github.com:keycloak/keycloak-containers.git
 cd keycloak-containers/server
 git checkout $VERSION
